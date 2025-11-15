@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="card w-full max-w-lg mx-auto p-8 rounded-xl shadow-2xl transition-transform transform hover:scale-[1.01]">
+        
+        <h1 class="text-3xl font-bold text-center mb-6 text-gray-100">Digital Clock</h1>
+        
+   
+        <div id="time" class="watch-face text-7xl md:text-8xl text-center font-bold tracking-widest mb-4">
+           
+        </div>
+        
+        <div class="flex justify-center items-end space-x-4 mb-6 text-gray-300">
+            <div id="ampm" class="watch-face text-3xl font-bold">--</div>
+            <div id="seconds" class="watch-face text-2xl font-medium opacity-80">--</div>
+        </div>
+
+        <div id="date" class="text-xl text-center text-gray-400 font-inter">
+          
+        </div>
+    </div>
+</body>
+ <script src="script.js"></script>
+</html>
